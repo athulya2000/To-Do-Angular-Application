@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { AddTodoComponent } from './add-todo/add-todo.component';
 import { RouterModule, Routes } from '@angular/router';
 import { ViewAlltodoComponent } from './view-alltodo/view-alltodo.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 const myRoute:Routes=[
   {
@@ -22,7 +23,8 @@ const myRoute:Routes=[
   declarations: [
     AppComponent,
     AddTodoComponent,
-    ViewAlltodoComponent
+    ViewAlltodoComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
